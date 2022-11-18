@@ -56,7 +56,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.button2.setOnClickListener {
-            binding.textView.text = viewModel.primary.value.toString()
+
         }
 
 
